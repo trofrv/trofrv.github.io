@@ -9,7 +9,6 @@
 	background: url(images/background1.png) no-repeat center center;
 	background-size: cover;
 	width: 100%;
-	min-width: 300px;
 	height: 1081px;
 	display: flex;
 	flex-direction: column;
