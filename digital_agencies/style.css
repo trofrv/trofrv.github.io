@@ -37,6 +37,7 @@ header {
 	margin-top: 56px;
 	width: 682px;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .main-nav a:hover {
