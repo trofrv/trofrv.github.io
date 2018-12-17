@@ -7,11 +7,12 @@
 
 .container1 {
 	background: url(images/background1.png) no-repeat center center;
-	background-size: cover; 
+	background-size: cover;
 	width: 100%;
-	min-width: 430px;
-	max-width: 1600px;
+	min-width: 600px;
 	height: 1081px;
+	display: flex;
+	flex-direction: column;
 }
 
 header {
@@ -27,17 +28,17 @@ header {
 	margin-top: 21px;
 	margin-left: 215px;
 	float: left;
+	position: absolute;
 
 }
 
 .main-nav {
 	display: flex;
-	margin-left: 243px;
+	margin-left: 550px;
 	font-size: 20px;
 	margin-top: 56px;
 	width: 682px;
 	justify-content: space-between;
-	flex-wrap: wrap;
 }
 
 .main-nav a:hover {
@@ -70,5 +71,16 @@ header {
 	font-size: 24.8px;
 	color: #11749e;
 	letter-spacing: 15px;
+}
+
+@media (max-width: 600px) {
+    .creatives_povered_by {
+        flex-direction: column;
+    }
+
+    .cosial-icon {
+        margin-right: 0;
+        margin-bottom: 60px;
+    }
 }
 
