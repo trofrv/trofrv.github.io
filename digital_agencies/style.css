@@ -103,6 +103,7 @@ header {
 }
 
 .we_are {
+	display: flex;
 	font-size: 2.346875em;
 	margin-top: 284px;
 	margin-left: 32%;
