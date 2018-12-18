@@ -6,11 +6,10 @@
 }
 
 .container1 {
+	width: 100%;
+	height: 1081px;
 	background: url(images/background1.png) no-repeat center center;
 	background-size: cover;
-	width: 100%;
-	min-width: 1600px;
-	height: 1081px;
 	display: flex;
 	flex-direction: column;
 }
@@ -26,19 +25,19 @@ header {
 	width: 80px;
 	height: 77px;
 	margin-top: 21px;
-	margin-left: 215px;
+	margin-left: 13.4375%;
 	float: left;
 	position: absolute;
-
 }
 
 .main-nav {
 	display: flex;
-	margin-left: 550px;
-	font-size: 20px;
+	margin-left: 34.375%;
+	font-size: 1.25em;
 	margin-top: 56px;
-	width: 682px;
+	width: 42.625%;
 	justify-content: space-between;
+
 }
 
 .main-nav a:hover {
@@ -46,8 +45,8 @@ header {
 }
 
 .social-icon {
-	margin-left: 54px;
-	width: 142px;
+	margin-left: 8.6400%;
+	width: 8.875%;
 	margin-top: 56px;
 	display: flex;
 	justify-content: space-between;
@@ -55,8 +54,8 @@ header {
 
 .creatives_povered_by {
 	margin-top: 277px;
-	margin-left: 394px;
-	width: 822px;
+	margin-left: 24.625%;
+	width: 51.375%;
 	height: 167px;
 	display: flex;
 	flex-wrap: wrap;
@@ -64,16 +63,16 @@ header {
 	justify-content: center;
 }
 .creatives {
-	font-size: 152px;
+	font-size: 9.5em;
 }
 
 .powered_by {
-	font-size: 24.8px;
+	font-size: 1.55em;
 	color: #11749e;
 	letter-spacing: 15px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
     .creatives_povered_by {
         flex-direction: column;
     }
@@ -83,4 +82,5 @@ header {
         margin-bottom: 60px;
     }
 }
+
 
