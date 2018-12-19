@@ -2,10 +2,10 @@
 	margin: 0px;
 	padding: 0px;
 	text-decoration: none;
-	color: white;
+	color: #ffffff;
 }
 
-.container1 {
+.container_1 {
 	width: 100%;
 	min-width: 1100px;
 	background: url(images/background1.png) no-repeat center center;
@@ -110,6 +110,7 @@ header {
 	width: 34.6875%;
 	white-space: nowrap;
 	justify-content: center;
+	
 }
 
 .container_about {
@@ -138,12 +139,121 @@ header {
 
 .about h3 {
 	font-size: 1.125em;
-	margin-top: 52px;
+	margin-top: 52px;]
+	white-space: nowrap;
 }
 .about p {
 	font-size: 0.9375em;
 	margin-top: 34px;
 }
+
+	/*------------------- Container 2 ---------------- */
+
+.container_2 {
+	display: flex;
+	flex-wrap: wrap;
+	height: 950px;
+}
+
+.part-one {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 50%;
+	height: 50%;
+	background: url(images/Rectangle.jpg);
+}
+
+.part-one-content {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin-left: 26.25%;
+	width: 57.75%;
+}
+
+.date-one {
+	font-size: 0.8125em;
+	margin-top: 112px;
+}
+
+.part-one h1 {
+	color: #ffffff;
+	margin-top: 19px;
+	font-size: 1.5625em;
+}
+
+.Cum  {
+	margin-top: 44px;
+	font-size: 0.9375em;
+}
+
+.Donec {
+	margin-top: 34px;
+	font-size: 0.9375em;
+}
+
+.part-two {
+	display: flex;
+	width: 50%;
+	height: 50%;
+	background: url(images/Layer.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+	/*------------- Part - three ---------------*/
+
+.part-three {
+	width: 50%;
+	height: 50%;
+	background: url(images/Layer_2.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+	/*------------- Part - four ---------------*/
+
+.part-four {
+	display: flex;
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	background: url(images/Rectangle_2.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.part-four-content {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin-left: 9.875%;
+	width: 57.875%;
+	margin-top: 107px;
+	color: #222222;
+}
+.part-four p , h1 {color: #222222;}
+
+.date-two {
+	font-size: 0.8125em;
+}
+
+.part-four h1 {
+	margin-top: 19px;
+	font-size: 1.5625em;
+}
+
+.Cum-2{
+	margin-top: 44px;
+	font-size: 0.9375em;
+}
+
+.Donec-2 {
+	margin-top: 34px;
+	font-size: 0.9375em;
+}
+
+
+
+
 
 
 
