@@ -150,11 +150,11 @@ header {
 	/*------------------- Container 2 ---------------- */
 
 .container_2 {
+	width: 100%;
+	min-width: 1100px;
 	display: flex;
 	flex-wrap: wrap;
 	height: 950px;
-	width: 100%;
-	min-width: 1100px;
 }
 
 .part-one {
