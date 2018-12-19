@@ -336,8 +336,53 @@ header {
 	color: #222222;
 	font-size: 0.9375em;
 	margin-top: 27px;
-
 }
+
+/*-------------------- Container 3 -------------------*/
+
+.container-3 {
+	width: 100%
+	min-width: 1100px;
+	height: 356px;
+	display: flex;
+	background-color: #11749e;
+	align-items: center;
+	justify-content: center;
+}
+
+.container-block {
+	display: flex;
+	height: 89px;
+	width: 73.1875%;
+	justify-content: space-between;
+}
+
+.container-block p {
+	font-size: 0.9375em;
+	display: flex;
+}
+
+.cb-part-1 {
+	display: flex;
+	width: 47.822374039%;
+}
+
+.cb-part-2 {
+	display: flex;
+	width: 47.822374039%;
+}
+
+.cb-img {
+	display: flex;
+	height: 71px;
+}
+
+.cb-item {
+	display: flex;
+	margin-left: 6.082289803%;
+}
+
+
 
 
 
