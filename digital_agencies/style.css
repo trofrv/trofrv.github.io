@@ -5,9 +5,14 @@
 	color: #ffffff;
 }
 
-.container_1 {
+.wrapper {
 	width: 100%;
-	min-width: 1100px;
+	min-width: 1130px;
+	display: flex;
+	flex-direction: column;
+}
+
+.container_1 {
 	background: url(images/background1.png) no-repeat center center;
 	background-size: cover;
 	display: flex;
@@ -115,8 +120,6 @@ header {
 	/*------------------ Container About Us -------------------*/
 	
 .container_about {
-	width: 100%;
-	min-width: 1100px;
 	display: flex;
 	height: 510px;
 	background-color: #000000;
@@ -140,7 +143,7 @@ header {
 
 .about h3 {
 	font-size: 1.125em;
-	margin-top: 52px;]
+	margin-top: 52px;
 	white-space: nowrap;
 }
 .about p {
@@ -151,8 +154,6 @@ header {
 	/*------------------- Container 2 ---------------- */
 
 .container_2 {
-	width: 100%;
-	min-width: 1100px;
 	display: flex;
 	flex-wrap: wrap;
 	height: 950px;
@@ -256,8 +257,6 @@ header {
 /*------------------ Blog ------------------------------ */
 
 .Blog {
-	width: 100%;
-	min-width: 1100px;
 	height: 65.625em;
 	display: flex;
 	flex-direction: column;
@@ -341,8 +340,6 @@ header {
 /*-------------------- Container 3 -------------------*/
 
 .container-3 {
-	width: 100%;
-	min-width: 1100px;
 	height: 356px;
 	display: flex;
 	background-color: #11749e;
@@ -385,8 +382,6 @@ header {
                     /*------------------ Container 4 ---------------------*/
 
 .container-4 {
-	width: 100%;
-	min-width: 1100px;
 	height: 848px;
 	display: flex;
 	background: url(images/Layer_87.jpg) no-repeat center center;
@@ -429,8 +424,6 @@ header {
 		/*------------------------------------ Our Team -------------------------------*/
 
 .team {
-	width: 100%;
-	min-width: 1100px;
 	height: 59em;
 	display: flex;
 	flex-direction: column;
@@ -601,17 +594,17 @@ header {
 			/*----------------------------- Footer ---------------------------------*/
 
 footer {
-	width: 100%;
-	min-width: 1100px;
-	display: flex;
 	height: 115px;
-	align-items: center;
 	background-color: #222222;
+	display: flex;
+	align-items: center;
 }
 
-footer p {
-	margin-left: 13.8125%;
+
+.copyright {
+	display: flex;
 	font-size: 0.8125em;
+	margin-left: 13.8125%;
 }
 
 
