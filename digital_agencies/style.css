@@ -426,6 +426,110 @@ header {
 
 .vantage-1 {width: 78.556263269%} .vantage-2 {width: 84.713375796%;} .vantage-3 {width: 90.870488322%;}
 
+		/*------------------------------------ Our Team -------------------------------*/
+
+.team {
+	width: 100%;
+	min-width: 1100px;
+	height: 59em;
+	display: flex;
+	flex-direction: column;
+}
+
+.team-logo {
+	display: flex;
+	margin-top: 4.1875em;
+	width: 100%;
+	height: 11.125em;
+	justify-content: center;
+	align-items: center;
+	background: url(images/T.png) no-repeat center center;
+}
+
+.team-logo p {
+	display: flex;
+	justify-content: center;
+	color: #222222;
+	font-size: 2.346875em;
+}
+
+.team-descr {
+	display: flex;
+	color: #222222;
+	font-size: 1.87875em;
+	justify-content: center;
+	margin-top: 4.1875em;
+}
+
+.team-block {
+	display: flex;
+	margin: 4.25em 0 0 13.375%;
+	width: 73.25%;
+	justify-content: space-between;
+}
+
+.tb-1 {
+	display: flex;
+	width: 22.1%;
+	height: 27.1875em;
+	background: url(images/Layer_81.jpg) no-repeat;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.tb-2 {
+	display: flex;
+	height: 27.1875em;
+	width: 22.1%;
+	background: url(images/Layer_82.jpg) no-repeat;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.tb-3 {
+	display: flex;
+	height: 27.1875em;
+	width: 22.1%;
+	background: url(images/Layer_93.jpg) no-repeat;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.tb-4 {
+	display: flex;
+	height: 27.1875em;
+	width: 22.1%;
+	background: url(images/Layer_94.jpg) no-repeat;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.tb-content {
+	width: 80.442804428%;
+	height: 3.5em;
+	background-color: #ffffff;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.team-block h3 {
+	display: flex;
+	justify-content: center;
+	color: #11749e;
+	font-size: 1.25em;
+}
+
+.team-block p {
+	display: flex;
+	justify-content: center;
+	color: #000000;
+	font-size: 0.9375em;
+}
+
+
+
 
 
 
