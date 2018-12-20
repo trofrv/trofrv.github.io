@@ -382,6 +382,52 @@ header {
 	margin-left: 6.082289803%;
 }
 
+/*------------------ Container 4 ---------------------*/
+
+.container-4 {
+	width: 100%;
+	min-width: 1100px;
+	height: 848px;
+	display: flex;
+	background: url(images/Layer_87.jpg) no-repeat center center;
+	background-size: cover;
+	justify-content: space-around;
+}
+
+.mobile-img {
+	display: flex;
+	width: 20.0625%;
+	height: 652px;
+	justify-content: center;
+	margin: 98px 0 0 16.9375%;
+}
+
+.c4-content {
+	display: flex;
+	width: 29.4375%;
+	height: 45.283018867%;
+	flex-direction: column;
+	margin: 227px 0 0 14.125%;
+	justify-content: space-between;
+}
+
+.vantage {
+	display: flex;
+	flex-direction: column;
+	height: 43.717277486%;
+	justify-content: space-around;
+}
+
+.vantage p {
+	display: flex;
+	padding: 0.8125em;
+	background-color: #11749e;
+	font-size: 0.9375em;
+}
+
+.vantage-1 {width: 78.556263269%} .vantage-2 {width: 84.713375796%;} .vantage-3 {width: 90.870488322%;}
+
+
 
 
 
