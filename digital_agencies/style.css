@@ -528,6 +528,96 @@ header {
 	font-size: 0.9375em;
 }
 
+			/*--------------------------- Container 5 ------------------------------*/
+
+.container-5 {
+	width: 100%;
+	min-width: 1110px;
+	height: 53.3125em;
+	background: url(images/container_5.jpg) no-repeat center center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+}
+
+.c5-logo {
+	display: flex;
+	margin-top: 9.125em;
+	width: 100%;
+	height: 11.4375em;
+	background: url(images/C.png) no-repeat center center;
+	justify-content: center;
+	align-items: center;
+}
+
+.c5-logo p {
+	font-size: 2.3125em;
+}
+
+.contact-info {
+	width: 75%;
+	margin-top: 4.75em;
+	margin-left: 13.625%;
+	
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.contact-info input {
+	background-color: transparent;
+	padding-left: 1.375em;
+	width: 29.678082191%;
+	height: 3.125em;
+	border: 1px solid #ffffff;
+	flex-direction: row;
+}
+
+.contact-info textarea {
+	resize: none;
+	width: 100%;
+	margin-top: 39px;
+	height: 152px;
+	background-color: transparent;
+	border: 1px solid #ffffff;
+	padding: 1.375em;
+}
+
+#submit-button {
+	width: 19.520547945%;
+	height: 66px;
+	margin: 46px 0 0 40%;
+	background-color: #11749e;
+	font-size: 24px;
+	cursor: pointer;
+	border: 0;
+}	
+
+#submit-button:active {
+	background-color: #e4e4e4;
+	color: #000000;
+}
+
+			/*----------------------------- Footer ---------------------------------*/
+
+footer {
+	width: 100%;
+	min-width: 1100px;
+	display: flex;
+	height: 115px;
+	align-items: center;
+	background-color: #222222;
+}
+
+footer p {
+	margin-left: 13.8125%;
+	font-size: 0.8125em;
+}
+
+
+
+
+
 
 
 
