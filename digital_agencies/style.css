@@ -125,6 +125,7 @@ header {
 	background-color: #000000;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
 
 }
 
@@ -605,6 +606,14 @@ footer {
 	display: flex;
 	font-size: 0.8125em;
 	margin-left: 13.8125%;
+}
+
+@media screen (max-width: 780px;) {
+	
+.about div {
+	width
+}
+
 }
 
 
