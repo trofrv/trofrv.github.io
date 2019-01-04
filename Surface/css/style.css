@@ -73,6 +73,7 @@ a {
 .header__mid {
 	padding-top: 18.75em;
 	position: relative;
+
 }
 
 .header__mid h1 {
@@ -95,7 +96,7 @@ a {
 .mid_img-line {
 	position: absolute;
 	left: 25%;
-	bottom: -2.5em;
+	top: 25%;
 	z-index: 2;
 }
 
@@ -128,7 +129,7 @@ a {
 .header__btn {
 	display: flex;
 	padding-top: 11.3125em;
-	justify-content: center;
+	margin: 0 auto;
 }
 
 .btn {
@@ -502,3 +503,6 @@ footer::before {
 	z-index: 2;
 }
 
+.slider1 {
+	display: none;
+}

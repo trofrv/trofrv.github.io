@@ -1,4 +1,132 @@
 
+			/* ----------------------- Mobile --------------------------- */
+
+@media screen and (min-width: 20em) and (max-width: 47.9375em) {
+	
+	.wrap {
+	width: 93%;
+	padding: 0;
+	margin: 0 auto;
+	}
+	
+	.header__text {
+		display: none;
+	}
+
+	.header__top {
+		justify-content: center;
+	}
+
+	.header__logo {
+		width: 137px;
+  		height: 24px;
+	}
+
+	.header__mid {
+		padding-top: 8.75em;
+	}
+
+	.header__mid h1 {
+		font-size: 2em;
+	}
+	.mid_img-line {
+	width: 134px;
+  	height: 169px;
+  	top: 11%;
+	}
+
+	.header__mid__p2 {
+		padding-left: 15.5%;
+		line-height: 1.2;
+		letter-spacing: 1.6px;		
+	}
+	
+	.mid__games {
+		order: 2;
+		width: 83.89261744966443%;
+		justify-content: space-around;
+		margin: 0 auto;
+		padding-bottom: 1.25em;
+	}
+
+	.header__btn {
+		order: 1;
+		padding-top: 7.375em;
+	}
+
+	.btn {
+		padding: 0.6875em 1.0625em 0.6875em 1.25em;
+		font-size: 0.5em;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 45px;
+	}
+
+	.btn img {
+		width: 15px;
+		height: 17px;
+		margin-right: 0.5625em;
+	}
+
+	.connect {
+		font-size: 28px;
+		padding-top: 70px;
+		margin-bottom: 1.75em;
+	}
+	
+	.paragraph {
+		font-size: 1.5em;
+		padding-bottom: 2em;
+	}
+	
+	.athlets-players {
+		display: none;
+	}
+
+	.slider {
+		width: 84.5%;
+		margin: 0 auto;
+	}
+	.slider_bg {
+		background: #f5f4f9;
+		display: flex;
+	}
+	.athlets_block {
+		height: 305px;
+	}
+	.players_block {
+		height: 315px;
+		position: relative;
+	}
+	.title {
+		padding: 25px 0 0 10px;
+	}
+	.fotballer_mob {
+		position: absolute;
+		width: 192px;
+		height: 281px;
+		left: 20%;
+		top: 61%;
+	}
+	.basket_mob {
+		position: absolute;
+		width: 302px;
+		height: 248px;
+		top: 32.5%;
+	}
+	.block-part {
+		width: 100%;
+	}
+	.mini_block {
+		top: 0;
+		left: 0;
+	}
+	
+	.footer {
+		font-size: 50%;
+	}
+
+}
 
 
 
@@ -9,12 +137,7 @@
 
 
 
-
-
-
-
-
-
+			/* ----------------------------------- PC --------------------------------------*/
 
 @media screen and (max-width: 96em) {
 	body {
@@ -30,7 +153,6 @@
 		top: 1%;
 	}
 }
-
 
 @media screen and (max-width: 85.375em) {
 	body {
@@ -84,3 +206,4 @@
 	}
 
 }
+
