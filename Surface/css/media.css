@@ -25,19 +25,21 @@
 	.header__mid {
 		padding-top: 8.75em;
 	}
+	.header__mid__p1 h1{
+		letter-spacing: 0;
+	}
 
 	.header__mid h1 {
-		font-size: 2em;
+		font-size: 32px;
 	}
 	.mid_img-line {
 	width: 134px;
   	height: 169px;
-  	top: 11%;
+  	top: 15%;
 	}
 
-	.header__mid__p2 {
-		padding-left: 15.5%;
-		line-height: 1.2;
+	.header__mid__p2 h1 {
+		padding-left: 49px;
 		letter-spacing: 1.6px;		
 	}
 	
@@ -47,16 +49,19 @@
 		justify-content: space-around;
 		margin: 0 auto;
 		padding-bottom: 1.25em;
+		font-size: 12px;
 	}
 
 	.header__btn {
 		order: 1;
 		padding-top: 7.375em;
+		position: relative;
+		left: -10px;
 	}
 
 	.btn {
 		padding: 0.6875em 1.0625em 0.6875em 1.25em;
-		font-size: 0.5em;
+		font-size: 8px;
 		display: flex;
 		justify-content: center;
 		margin-bottom: 45px;
@@ -178,6 +183,8 @@
 	}
 	.footer_btn {
 		padding-top: 75px;
+		position: relative;
+		left: -10px;
 	}
 
 	.footer_logo, .contact_us {
@@ -189,6 +196,7 @@
 	}
 	.social_icons {
 		width: 39.0625%;
+		left: 5px;
 	}
 
 	.fb_icon {width: 10px; height: 18px;}
