@@ -93,10 +93,13 @@
 	}
 	.athlets_block {
 		height: 305px;
+		display: block;
+		position: relative;
 	}
 	.players_block {
 		height: 315px;
 		position: relative;
+		display: block;
 	}
 	.title {
 		padding: 25px 0 0 10px;
@@ -106,7 +109,7 @@
 		width: 192px;
 		height: 281px;
 		left: 20%;
-		top: 61%;
+		top: 25%;
 	}
 	.basket_mob {
 		position: absolute;
@@ -117,11 +120,80 @@
 	.block-part {
 		width: 100%;
 	}
+	.block_content {
+		width: 80%;
+	}
+	.block_1 {order: -1;} .block_4{order: 2;} .block_3{order: 3;} .block_5 {order: 4;}.block_6 {order: 5;}
+	
 	.mini_block {
-		top: 0;
-		left: 0;
+		top: 79%;
+		left: 13.54166666666667%;
+	}
+	.block_2_6_content {
+		padding-top: 2.1875em;
+		order: 1;
+		padding-bottom: 5em;
+	}
+	.block_2_6 h1 {
+		margin-bottom: 1.5em;
+	}
+	.block_3_content {
+		padding: 3em 0 5em 0;
+		margin-left: 13.54166666666667%;
+	}
+	.block_3_content p {
+		padding-top: 1.5em;
+	}
+	.block h1 {
+		font-size: 28px;
+	}
+	.block p {
+		font-size: 16px;
+	}
+	.mb_2 {
+		height: 34%;
+		top: -30%;
+	}
+	.mb_3 {
+		top: 77%;
 	}
 	
+	.footer_top {
+		flex-direction: column;
+		align-items: center;
+		padding-top: 95px;
+	}
+
+	.ftop_logo {
+		width: 73px;
+		height: 78px;
+		margin-bottom: 55px;
+	}
+	.ftop_text h1 {
+		font-size: 34px;
+	}
+	.ftop_text p {
+		font-size: 15px;
+		padding-top: 10px;
+	}
+	.footer_btn {
+		padding-top: 75px;
+	}
+
+	.footer_logo, .contact_us {
+		display: none;
+	}
+	footer {
+		padding: 20px 0 15px 0;
+		justify-content: center;
+	}
+	.social_icons {
+		width: 39.0625%;
+	}
+
+	.fb_icon {width: 10px; height: 18px;}
+	.twit_icon {width: 18px; height: 15px;}
+	.inst_icon {width: 17px;height: 17px;}
 	.footer {
 		font-size: 50%;
 	}

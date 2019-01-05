@@ -503,6 +503,11 @@ footer::before {
 	z-index: 2;
 }
 
-.slider1 {
+.slider {
 	display: none;
 }
+
+.athlets_block, .players_block {
+	display: none;
+}
+
