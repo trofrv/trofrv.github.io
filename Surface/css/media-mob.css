@@ -1,0 +1,289 @@
+
+			/* ----------------------- Mobile --------------------------- */
+
+@media screen and (min-width: 20em) and (max-width: 47.9375em) {
+	
+	.wrap {
+	width: 93%;
+	padding: 0;
+	margin: 0 auto;
+	}
+	
+	.header__text {
+		display: none;
+	}
+
+	.header__top {
+		justify-content: center;
+	}
+
+	.header__logo {
+		width: 137px;
+  		height: 24px;
+	}
+
+	.header__mid {
+		padding-top: 8.75em;
+	}
+	.header__mid__p1 h1{
+		letter-spacing: 0;
+	}
+
+	.header__mid h1 {
+		font-size: 32px;
+	}
+	.mid_img-line {
+	width: 134px;
+  	height: 169px;
+  	top: 15%;
+	}
+
+	.header__mid__p2 h1 {
+		padding-left: 49px;
+		letter-spacing: 1.6px;		
+	}
+	
+	.mid__games {
+		order: 2;
+		width: 83.89261744966443%;
+		justify-content: space-around;
+		margin: 0 auto;
+		padding-bottom: 1.25em;
+		font-size: 12px;
+	}
+
+	.header__btn {
+		order: 1;
+		padding-top: 7.375em;
+		position: relative;
+		left: -10px;
+	}
+
+	.btn {
+		padding: 0.6875em 1.0625em 0.6875em 1.25em;
+		font-size: 8px;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 45px;
+	}
+
+	.btn img {
+		width: 15px;
+		height: 17px;
+		margin-right: 0.5625em;
+	}
+
+	.connect {
+		font-size: 28px;
+		padding-top: 70px;
+		margin-bottom: 1.75em;
+	}
+	
+	.paragraph {
+		font-size: 1.5em;
+		padding-bottom: 2em;
+	}
+	
+	.athlets-players {
+		display: none;
+	}
+
+	.slider {
+		width: 84.5%;
+		margin: 0 auto;
+	}
+	.slider_bg {
+		background: #f5f4f9;
+		display: flex;
+	}
+	.athlets_block {
+		height: 305px;
+		display: block;
+		position: relative;
+	}
+	.players_block {
+		height: 315px;
+		position: relative;
+		display: block;
+	}
+	.title {
+		padding: 25px 0 0 10px;
+	}
+	.fotballer_mob {
+		position: absolute;
+		width: 192px;
+		height: 281px;
+		left: 20%;
+		top: 25%;
+	}
+	.basket_mob {
+		position: absolute;
+		width: 302px;
+		height: 248px;
+		top: 32.5%;
+	}
+	.block-part {
+		width: 100%;
+	}
+	.block_content {
+		width: 80%;
+	}
+	.block_1 {order: -1;} .block_4{order: 2;} .block_3{order: 3;} .block_5 {order: 4;}.block_6 {order: 5;}
+	
+	.mini_block {
+		top: 79%;
+		left: 13.54166666666667%;
+	}
+	.block_2_6_content {
+		padding-top: 2.1875em;
+		order: 1;
+		padding-bottom: 5em;
+	}
+	.block_2_6 h1 {
+		margin-bottom: 1.5em;
+	}
+	.block_3_content {
+		padding: 3em 0 5em 0;
+		margin-left: 13.54166666666667%;
+	}
+	.block_3_content p {
+		padding-top: 1.5em;
+	}
+	.block h1 {
+		font-size: 28px;
+	}
+	.block p {
+		font-size: 16px;
+	}
+	.mb_2 {
+		height: 34%;
+		top: -30%;
+	}
+	.mb_3 {
+		top: 77%;
+	}
+	
+	.footer_top {
+		flex-direction: column;
+		align-items: center;
+		padding-top: 95px;
+	}
+
+	.ftop_logo {
+		width: 73px;
+		height: 78px;
+		margin-bottom: 55px;
+	}
+	.ftop_text h1 {
+		font-size: 34px;
+	}
+	.ftop_text p {
+		font-size: 15px;
+		padding-top: 10px;
+	}
+	.footer_btn {
+		padding-top: 75px;
+		position: relative;
+		left: -10px;
+	}
+
+	.footer_logo, .contact_us {
+		display: none;
+	}
+	footer {
+		padding: 20px 0 15px 0;
+		justify-content: center;
+	}
+	.social_icons {
+		width: 39.0625%;
+		left: 5px;
+	}
+
+	.fb_icon {width: 10px; height: 18px;}
+	.twit_icon {width: 18px; height: 15px;}
+	.inst_icon {width: 17px;height: 17px;}
+	.footer {
+		font-size: 50%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+			/* ----------------------------------- PC --------------------------------------*/
+
+@media screen and (max-width: 96em) {
+	body {
+		font-size: 90%;
+	}
+	
+	.footballer-img {
+		width: 41.8%;
+	}
+
+	.basketballer-img {
+		width: 56%;
+		top: 1%;
+	}
+}
+
+@media screen and (max-width: 85.375em) {
+	body {
+		font-size: 80%;
+	}
+	
+	.footballer-img {
+		width: 44.2%;
+	}
+
+	.basketballer-img {
+		width: 57%;
+	}
+}
+
+@media screen and (max-width: 78.75em) {
+	body {
+		font-size: 70%;
+	}
+
+	.mid_img-line {
+	left: 24%;
+	bottom: -70px;
+	}
+
+	.footballer-img {
+		width: 45.7%;
+	}
+
+	.basketballer-img {
+		width: 59%;
+		top: 1%;
+	}
+
+}
+
+@media screen and (max-width: 64em) {
+	
+	body {
+		font-size: 65%;
+	}
+
+	.footballer-img {
+		width: 50%;
+		top: 12%;
+		left: 5%;
+	}
+
+	.basketballer-img {
+		width: 64%;
+	}
+
+}
+
