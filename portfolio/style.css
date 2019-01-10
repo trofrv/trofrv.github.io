@@ -1,0 +1,295 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+.adaptive-img {
+	max-width: 100%;
+	height: auto;
+}
+
+body {
+	width: 100%;
+	font-size: 100%;
+}
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.header-logo {
+	margin-left: 1.6%;
+	margin-top: 2.4%;
+}
+
+.header-logo h1 {
+	font-family: BebasNeue;
+	color: #404040;
+	font-size: 2.21875em;
+	font-weight: 500;
+}
+
+.header-logo p {
+	font-family: Arial;
+	font-size: 0.90625em;
+	color: #404040;
+}
+
+nav {
+	margin-right: 2.8%;
+	font-family: HelveticaLT;
+	width: 30.859375%;
+	font-size: 1.03125em;
+}
+
+.main-nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-itm {
+	list-style: none;
+	height: 76px;
+	width: 20.31746031746032%;
+	display: flex;
+	padding-bottom: 10px;
+}
+
+.nav-itm a {
+	display: inline-block; 
+	height: 100%;
+	width: 100%;
+	display: flex; 
+	align-items: flex-end;
+	justify-content: center;
+	color: #404040;
+}
+.Home {
+	background: #d45e5e;
+}
+
+.Home a {
+	color: #ffffff;
+}
+
+.nav-itm:hover,
+.nav-itm:hover a {
+	background-color: #d45e5e;
+	color: #ffffff;
+}
+
+			/*--------------------------- Main --------------------------*/
+
+.main {
+	display: flex;
+	justify-content: center;
+	padding-top: 5.6%;
+	flex-direction: column;
+}
+
+.welcome {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+}
+
+.quotes {
+	font-family: Arial;
+	font-size: 6.28125em;
+	font-weight: 900;
+	color: #dfdfdf;
+}
+
+.greeting {
+	position: relative;
+	bottom: 27px;
+	font-family: Cambria;
+	font-style: italic;
+	font-size: 1.4375em;
+	color: #404040;
+}
+
+.greeting span {
+	display: flex;
+	justify-content: center;
+}
+
+.text {
+	border-bottom: 1px solid;
+	border-bottom-width: medium;
+	border-image: linear-gradient(to right, #ffffff, #e9e3e3, #dcd4d4, #ffffff ) 47% 3%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: 2;
+	background-color: #ffffff;
+}
+
+.welcome-img {
+	position: relative;
+	bottom: 42px;
+	z-index: 1;
+}
+
+#scale {
+	position: relative;
+	bottom: 16px;
+	right: 13px;
+	z-index: 1;
+}
+
+			/* ---------------------- Portfolio ---------------------------*/
+
+.portfolio {
+	display: flex;
+	flex-direction: column;
+	color: #404040;
+	font-family: "Cambria";
+	font-size: 23px;
+	font-style: italic;
+	font-weight: 520;
+	padding-bottom: 7.5em;
+	padding-left: 3.9%;
+}
+
+.portfolio_title {
+	padding-left: 10px;
+}
+
+.works {
+	width: 100%;
+	padding-top: 38px;
+	display: flex;
+}
+
+.w_item {	
+	height: 205px;
+	box-shadow: 5px 5px 15px #000000;
+	transition: 1s;
+}
+
+.w_item:hover {
+	transform: scale(1.15);
+	transition: 1s;
+}
+
+footer {
+	width: 100%;
+	background: #d45e5e;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 1.5em;
+}
+
+.about {
+	width: 80%;
+	position: relative;
+	padding-left: 5.7%;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+.photo {
+	padding: 7px;
+	padding-bottom: 4px;
+	background: #fff;
+	position: absolute;
+	top: -50px;
+}
+.name_locate {
+	padding-left: 23%;
+	padding-top: 25px;
+}
+.name {
+	padding-bottom: 10px;
+	font-family: "Cambria";
+	font-style: italic;
+	font-size: 1.53125em;
+}
+.location {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 0.82em;
+}
+.location img {
+	padding-right: 10px;
+}
+.about_text {
+	padding-top: 40px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 0.83em;
+	display: flex;
+	flex-direction: column;
+}
+.about_p1 {
+	width: 60%;
+}
+.skills {
+	padding-top: 60px;
+	width: 19%;
+	padding-right: 8%;
+}
+.skills_title {
+	font-size: 1.5em;
+	font-family: "Cambria";
+	padding-bottom: 30px;
+}
+
+.skills_item {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5px;
+}
+
+progress {
+	background: black;
+	width: 200px;
+}
+
+::-webkit-progress-bar {
+    background: #e27878;
+}
+::-webkit-progress-value {
+    background: black;
+}
+::-moz-progress-bar {
+    background: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face { 
+font-family: "BebasNeue"; 
+src: url("fonts/BebasNeue-Regular.otf"); 
+font-style: normal; 
+font-weight: normal; 
+}
+
+@font-face { 
+font-family: "HelveticaLT"; 
+src: url("fonts/lte50050.ttf"); 
+font-style: normal; 
+font-weight: normal; 
+}

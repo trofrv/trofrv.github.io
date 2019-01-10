@@ -1,0 +1,103 @@
+@media screen and (min-width: 20em) and (max-width: 47.9375em) {
+
+	header {
+		flex-direction: column;
+	}
+	.header-logo {
+	padding-bottom: 25px;
+	width: 100%;
+	border-bottom: 1px solid #d0d0d0;
+	font-size: 80%;
+	}
+	nav {
+		padding-top: 15px;
+		font-size: 82%;
+		width: 100%;
+	}
+	.nav-itm {
+		height: auto;
+		padding: 10px 2px;
+	}
+
+	.quotes {
+		font-size: 5em;
+	}
+	.greeting {
+		font-size: 80%;
+	}
+	.welcome-img img {
+		width: 40%;
+	}
+	.welcome-img {
+		text-align: center;
+		bottom: 28px;
+	}
+	#scale {
+		bottom: 7px;
+		right: 13px;
+		width: 25%;
+	}
+
+	.portfolio {
+		font-size: 90%;
+		padding-left: 1%;
+	}
+	.portfolio_title {
+		padding-left: 5px;
+	}
+	.works {
+		width: 100%;
+		padding-top: 30px;
+		display: flex;
+	}
+	.w_item {	
+		height: auto;
+	}
+	.w_item img {
+		display: block;
+	}
+
+	.about {
+		flex-direction: column;
+		font-size: 70%;
+		padding-left: 0;
+	}
+	.photo {
+		width: 28%;
+		padding: 5px;
+		padding-bottom: 3px;
+		top: -30px;
+	}
+	.about_p1 {
+		width: 100%;
+		border-bottom: 1px solid #fff;
+		padding-bottom: 4em;
+	}
+	.name_locate {
+		padding-left: 35%;
+		padding-top: 15px;
+		font-size: 80%;
+	}
+	.name {
+		padding-bottom: 5px;
+	}
+	.location img {
+		width: 5%;
+		padding-right: 5px;
+	}
+	.about_text {
+		padding-top: 25px;
+		font-size: 83%;
+	}
+	
+	.skills {
+		padding-top: 30px;
+		width: 100%;
+		font-size: 80%;
+	}
+	.skills_title {
+		padding-bottom: 20px;
+	}
+
+
+}
