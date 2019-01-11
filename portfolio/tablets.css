@@ -1,0 +1,43 @@
+@media screen and (min-width: 48em) and (max-width: 64em) {
+	body {
+		font-size: 80%;
+	}
+	.header-logo {
+		margin-left: 0;
+	}
+	nav {
+		width: 42%;
+		margin-right: 0;
+	}
+	.nav-itm {
+		height: 55px;
+	}
+
+	.main {
+		padding-top: 13%;
+	}
+	.welcome {
+		padding-bottom: 5%;
+	}
+
+	.name_locate {
+		padding-left: 12em;
+		font-size: 110%;
+	}
+	.about_text {
+		font-size: 105%;
+	}
+
+	.skills {
+		width: 30%;
+		padding-right: 0;
+	}
+	.skills p {
+		padding-right:10px;
+	}
+
+	progress {
+		width: 75%;
+	}
+
+}

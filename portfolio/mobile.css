@@ -87,16 +87,54 @@
 	}
 	.about_text {
 		padding-top: 25px;
+		font-size: 100%;
 	}
 	
 	.skills {
 		padding-top: 30px;
-		width: 100%;
+		width: 250px;
 		font-size: 80%;
 	}
 	.skills_title {
 		padding-bottom: 20px;
 	}
 
+}
+
+@media screen and (min-width: 27.5em) and (max-width: 47.9375em) {
+	.photo {
+		top: -50px;
+	}
+	body {
+		font-size: 120%;
+	}
+	.works {
+		justify-content: center;
+	}
+}
+
+@media screen and (min-width: 34.0625em) and (max-width: 47.9375em) {
+	.photo {
+		top: -70px;
+		width: 123px;
+		height: 123px;
+		padding-bottom: 5px;
+	}
+
+	.name_locate {
+		padding-left: 13em;
+		font-size: 90%;
+	}
+	.location img {
+		width: 10px;
+		padding-right: 5px;
+	}
+
+	.skills {
+		font-size: 100%;
+	}
+
 
 }
+
+
