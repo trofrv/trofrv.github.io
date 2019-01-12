@@ -1,0 +1,40 @@
+@media screen and (min-width: 64.0625em) and (max-width: 81.0625em) {
+	nav {
+		width: 40%;
+		margin-right: 0;
+	}
+	.nav-itm {
+		width: 65px;
+		margin-left: 10px;
+		font-size: 90%;
+	}
+	.name_locate {
+		padding-left: 11em;
+	}
+	.skills {
+		width: 30%;
+		padding-right: 0;
+	}
+	.skills p {
+		padding-right:10px;
+	}
+	progress {
+		width: 75%;
+	}
+}
+
+@media screen and (min-width: 81.125em) and (max-width: 102.5em) {
+	.name_locate {
+		padding-left: 11em;
+	}
+	.skills {
+		width: 25%;
+		padding-right: 5%;
+	}
+	progress {
+		width: 75%;
+	}
+
+
+
+}
