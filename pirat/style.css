@@ -1,0 +1,159 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	font-size: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.a-i {
+	max-width: 100%;
+	height: auto;
+}
+
+.background {
+       	position: absolute;
+        z-index: -1;
+        top:-20px;
+        left:0; 
+        min-width:100%;
+        min-height:100%;
+        display: inline-block;
+}
+
+.theme_header {
+	height: 12em;
+}
+
+.wrapper {
+}
+
+.start {
+	display: flex;
+	margin-left: 14%;
+	align-items: center;
+}
+
+.start img {
+	width: 50px;
+	height: 50px;
+}
+
+.start p {
+	padding-left: 5%;
+	font-size: 2.8em
+}
+
+.border_1 {
+	border-left: 2px solid #d0c395;
+	height: 130px;
+	width: 2px;
+	margin-left: 15.7%;
+	margin-top: 20px;
+}
+
+.second_step {
+	display: flex;
+	margin-left: 14%;
+	margin-top: 20px;
+	font-size: 2.8em
+}
+
+.second_step img {
+	width: 50px;
+	height: 50px;
+}
+.second_step p {
+	padding-left: 5%;
+}
+
+.city {
+	border-left: 2px solid #d0c395;
+	height: 300px;
+	margin-left: 15.7%;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+select {
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid red;
+	color: red;
+	width: 40%;
+	font-size: 2em;
+   
+}
+
+.form {
+	margin-top: 60px;
+	margin-left: 7.8%;
+	font-size: 1.4em;
+	display: flex;
+	flex-direction: column;
+}
+
+.form span {
+	color: red;
+}
+
+.city_button {
+	margin-top: 50px;
+	margin-left: 28%;
+}
+.city_button a {
+	font-size: 1.3em;
+	padding-right: 8%;
+}
+
+.third_step {
+	display: flex;
+	margin-left: 14%;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.third_step img {
+	width: 50px;
+	height: 50px;
+}
+
+.third_step p {
+	padding-left: 5%;
+	font-size: 2.8em;
+	color: #6d664e;
+}
+
+.border_2 {
+	border-left: 2px solid #d0c395;
+	height: 130px;
+	width: 2px;
+	margin-left: 15.7%;
+	margin-top: 20px;
+}
+
+.fout_step {
+	display: flex;
+	margin-left: 14%;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.fout_step img {
+	width: 50px;
+	height: 50px;
+}
+
+.fout_step p {
+	padding-left: 5%;
+	font-size: 2.8em;
+	color: #6d664e;
+}
