@@ -200,25 +200,6 @@ select {
 }
 */
 
-
-@media screen and (max-width: 23.5em ) {
-	body {
-		font-size: 50%;
-	}
-
-	.border_1 {
-	border-left: 2px solid #d0c395;
-	height: 70px;
-	margin-left: 17.38%;
-	margin-top: 20px;
-	}
-
-	.start img {
-		width: 25px;
-		height: 25px;
-	}
-}
-
 @media screen and (max-width: 68.75em) {
 	.border {
 		margin-left: 16%;
@@ -297,5 +278,9 @@ select {
 	}
 	select {
 		font-size: 1.8em;
+	}
+	.checkpoint p {
+		top: 7px;
+		right: px;
 	}
 }
