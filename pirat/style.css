@@ -281,6 +281,6 @@ select {
 	}
 	.checkpoint p {
 		top: 7px;
-		right: px;
+		right: 0;
 	}
 }
