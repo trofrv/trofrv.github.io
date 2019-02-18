@@ -1,0 +1,307 @@
+body {
+	font-size: 100%;
+	min-width: 75.25em;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+li {
+	display: inline;
+}
+
+.header__mid {
+	position: absolute;
+	top: 80px;
+}
+
+.header__mid h1 {
+	font-size: 1.5625em;
+	font-family: 'Roboto', sans-serif;
+	color: #8b0000;
+}
+.header__mid p {
+	color: #003b23;
+	font-size: 1em;
+	font-family: 'Roboto', sans-serif;
+}
+.header__mid a {
+	background: #007646;
+	color: #fff;
+	font-size: 1.0625em;
+}
+.call__button p {
+	margin-top: 5px;
+	font-size: 0.9375em;
+}
+.call__button a:hover {
+	color: #fff;
+	background: #003B23;
+}
+.shopping__cart {
+	color: #007646;
+	font-size: 1.6875em;
+	position: relative;
+	right: 5%;
+	top: 25px;
+}
+.shopping__cart a {
+	color: #007646;
+}
+.shopping__cart i {
+	font-size: 0.85em;
+}
+.shopping__cart span {
+	font-size: 0.8em;
+	background:#007646;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+.shopping__cart a:hover {
+	color: #007646;
+}
+.nav {
+	margin-top: 100px;
+}
+
+nav {
+  background: white;
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+  display: block;
+  transition: .3s linear;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.topmenu > li {
+  display: inline-block;
+  position: relative;
+}
+.topmenu > li:last-child {border-right: 1px solid #ECF1F2;}
+.topmenu > li > a {
+
+  font-size: 0.95em;
+  text-transform: uppercase;
+  color: #32746d;
+}
+.active:after, .submenu-link:after {
+  content: "\f107";
+  font-family: "FontAwesome";
+  color: inherit;
+}
+.topmenu .active, .topmenu > li > a:hover, .submenu li a:hover {color: #007646;}
+.submenu {
+  position: absolute;
+  left: -1px;
+  z-index: 5;
+  width: 300px;
+  border-bottom: 1px solid #ECF1F2;
+  visibility: hidden;
+  opacity: 0;  
+  transform: translateY(10px);
+  transition: .3s ease-in-out;
+}
+.submenu li {position: relative;}
+.submenu a {
+  background: white;
+  color: #274D38;
+  text-align: left;
+  font-size: 0.95em;
+  padding: 5px 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+.submenu .submenu {
+  position: absolute;
+  top: 0;
+  left: calc(100% - 1px);
+  left: -webkit-calc(100% - 1px);
+}
+nav li:hover > .submenu {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0px);
+}
+.mid__container {
+	margin-top: 10px;
+}
+.parallax_div {
+	
+}
+.california_contractors {
+	background: #274D38;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.california_contractors h1 {
+	font-size: 2.5em;
+	margin-top: 40px;
+	font-family: 'Roboto', sans-serif;
+}
+.california_contractors p {
+	font-size: 1.25em;
+}
+.california_contractors span {
+	color: #FEF8A2;
+	font-size: 1.8em;
+}
+.contact_us {
+	background: #274D38;
+	color: #fff;
+}
+.button__mid a, .mid__email_btn a {
+	background: #FEF8A2;
+	transition: 0.5s;
+}
+.button__mid a:hover, .mid__email_btn a:hover {
+	background: #4C9879;
+	color: #fff;
+	transition: 0.5s;
+}
+.covered {
+	margin-left: 68%;
+}
+.follow_us {
+	margin-left: 9%;
+}
+.icons {
+	display: flex;
+}
+.icon {
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	background: #fff;
+	color: #274D38;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5625em;
+	margin-right: 10px;
+}
+.money__back {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.75em;
+}
+
+.star {
+	font-size: 1em;
+}
+textarea {
+	height: 130px;
+}
+.start_journey button {
+	background: #FEF8A2;
+	transition: 0.5s;
+}
+.start_journey {
+	position: relative;
+	right: 9px;
+}
+
+.copyright {
+	position: relative;	
+	top: 50px;
+	color: #003B23;
+}
+.footer__content {
+	padding-bottom: 110px;
+}
+
+
+
+@media screen and (max-width: 62.5em) {
+	.submenu a {
+		font-size: 0.6em;
+	}
+	.topmenu > li > a {
+		font-size: 0.8em;
+	}
+}
+@media screen and (max-width: 47.9375em) {
+	.header__mid h1 {
+		font-size: 0.919em;
+	}
+	.header__mid p {
+		margin-left: 10px;
+	}
+	.topmenu > li > a {
+		font-size: 0.6em;
+		margin-right: 10px;
+	}
+
+}
+/*@media screen and (max-width: 56.25em) {
+	.california_contractors h1 {
+		font-size: 2em;
+	}
+	.california_contractors p {
+		font-size: 1em;
+	}
+	.california_contractors span {
+		font-size: 1.4em;
+	}
+	.covered {
+		font-size: 0.8em;
+	}
+	.covered h3 {
+		font-size: 1.6em;
+	}
+	.icon {
+	width: 30px;
+	height: 30px;
+	font-size: 1.2em;
+	}
+	.follow_us h3 {
+		font-size: 1.3em;
+	}
+}
+*/
+
+
+
+
+
+@font-face {
+font-family: 'Futura Light';
+src: url('../fonts/futura-lt/FuturaLightC.eot');
+src: url('../fonts/futura-lt/FuturaLightC.eot?#iefix') format('embedded-opentype'),
+url('../fonts/futura-lt/FuturaLightC.woff') format('woff'),
+url('../fonts/futura-lt/FuturaLightC.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'Futura Book';
+src: url('../fonts/futura-book/FuturaBookC.eot');
+src: url('../fonts/futura-book/FuturaBookC.eot?#iefix') format('embedded-opentype'),
+url('../fonts/futura-book/FuturaBookC.woff') format('woff'),
+url('../fonts/futura-book/FuturaBookC.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'Brandon Grotesque Light';
+src: url('../fonts/brandon_grot/BrandonGrotesque-Light.eot');
+src: url('../fonts/brandon_grot/BrandonGrotesque-Light.eot?#iefix') format('embedded-opentype'),
+url('../fonts/brandon_grot/BrandonGrotesque-Light.woff') format('woff'),
+url('../fonts/brandon_grot/BrandonGrotesque-Light.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+
