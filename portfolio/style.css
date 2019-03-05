@@ -176,6 +176,7 @@ nav {
 	height: 205px;
 	box-shadow: 5px 5px 15px #000000;
 	transition: 1s;
+	margin-left: 1em;
 }
 
 .w_item:hover {
