@@ -1,0 +1,281 @@
+@media screen and (max-width: 1208px) {
+	.hover_block {
+		font-size: 80%;
+	}
+}
+@media screen and (max-width: 950px) {
+	/* --- Header --- */
+	.header_top {
+		width: 90%;
+		font-size: 95%;
+	}
+	/* --- Services --- */
+	.our_services {
+		width: 70%;
+	}
+	.services_item {
+		font-size: 90%;
+		width: 25%;
+	}
+	.services_item img {
+		width: 55%;
+	}
+	/* --- Portfolio --- */
+	.portfolio_part {
+		width: 80%;
+	}
+	/* --- Team --- */
+	.team_part {
+		width: 80%;
+	}
+	/* --- Clients --- */
+	.clients_part {
+		width: 73%;
+	}
+	/* --- Contact Us --- */
+	.contact_part {
+		width: 80%;
+		font-size: 95%;
+	}
+}
+@media screen and (max-width: 800px) {
+	.header_mid {
+		font-size: 90%;
+	}
+	/* --- Portfolio --- */
+	.portfolio_part {
+		width: 90%;
+		font-size: 85%;
+	}
+	/* --- Team --- */
+	.team_part {
+		width: 90%;
+	}
+	.page_part_title {
+		font-size: 110%;
+		width: 50%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.services_title {
+		margin-top: 4.0625em;
+	}
+	/* --- Clients --- */
+	.clients_part {
+		width: 80%;
+	}
+	.slider {
+		width: 65%;
+	}
+	/* --- Contact Us --- */
+	.contact_part img {
+		width: 55%;
+	}
+}
+@media screen and (max-width: 714px) {
+	/* --- Header --- */
+	.header_top {
+		width: 95%;
+		font-size: 85%;
+	}
+	.header_nav {
+		display: none;
+	}
+	label.hamburger, .drawer-list, input.hamburger {
+		display: block;
+	}
+	.header_mid {
+		font-size: 85%;
+		margin-top: 14em;
+	}
+	.page_part_title h1 {
+		font-size: 100%;
+	}
+	/* --- Services --- */
+	.our_services {
+		width: 90%;
+	}
+	.services_item {
+		font-size: 90%;
+		width: 30%;
+	}
+	.services_item img {
+		width: 45%;
+	}
+}
+@media screen and (max-width: 600px) {
+	header::before {
+		height: 15%;
+	}
+	.header_mid {
+		margin-top: 10em;
+	}
+	.scroll_down {
+		margin-top: 14em;
+	}
+
+	.our_portfolio {
+		padding-top: 13em;
+		padding-bottom: 9.8em;
+	}
+	.sep_top::before {
+		height: 15%;
+	}
+	.sep_bot::before {
+		height: 15%;
+	}
+	.portfolio_part {
+		width: 90%;
+	}
+	.portfolio_items {
+		width: 49%;
+		margin: 2px;
+	}
+	
+	.our_team {
+		padding-top: 3em;
+	}
+	.team_part {
+		width: 80%;
+	}
+	.team_item {
+		width: 49%;
+	}
+	
+	.our_offices {
+		padding-top: 11em;
+		padding-bottom: 30em;
+	}
+	.our_offices::before {
+		height: 15%;
+	}
+	
+	.clients_title p {
+		font-size: 85%;
+	}
+	.sl_item p {
+		font-size: 1em;
+	}
+
+	.contact_us {
+		padding-top: 10em;
+		padding-bottom: 4em;
+		font-size: 90%;
+	}
+	.contact_us::before {
+		height: 15%;
+	}
+	.contact_part {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.header_mid {
+		margin-top: 6em;
+	}
+	header::before {
+
+	}
+	.scroll_down {
+		margin-top: 11.6em;
+	}
+	.our_portfolio {
+		padding-top: 10em;
+		padding-bottom: 9em;
+	}
+	.services_title {
+		margin-top: 2em;
+	}
+
+	.portfolio_part {
+		width: 90%;
+	}
+	.portfolio_items {
+		width: 100%;
+		margin: 2px;
+	}
+	.sep_top::before {
+		height: 7%;
+	}
+	.sep_bot::before {
+		height: 7%;
+	}
+	.offices_sep::before {
+		height: 13%;
+	}
+	.clients_part {
+		width: 90%;
+		flex-wrap: wrap;
+	}
+	.our_offices {
+		padding-top: 10em;
+		padding-bottom: 28em;
+	}
+	.contact_part {
+		width: 95%;
+		flex-wrap: wrap;
+	}
+	.contact_item {
+		width: 26%;
+	}
+	.contact_item img {
+		width: 45%;
+	}
+	.fb_item {
+		margin-top: 1.5em;
+	}
+}
+@media screen and (max-width: 375px) {
+	.header_mid_logo  {
+		width: 25%;
+
+		background-size: 100% 90%;
+	}
+	.header_mid_logo img {
+		width: 20%;
+	}
+	.header_mid_logo span {
+		font-size: 2.5em;
+		margin-top: 0.9em;
+	}
+	.header_mid_logo p {
+		font-size: 1.2em;
+	}
+	.header_mid_description {
+		font-size: 1em;
+	}
+	.header_btn {
+	padding: 8px 35px;
+	font-size: 0.9em;
+	transition: 0.6s;
+	}
+	.header_mid {
+		margin-top: 4em;
+	}
+	.scroll_down {
+		margin-top: 5em;
+	}
+	.scroll_down a {
+		top: 35px;
+	}
+	.services_part {
+		flex-wrap: wrap;
+	}
+	.services_item {
+		width: 40%;
+		margin: 0 auto;
+	}
+	.services_item:last-child {
+		margin-top: 2em;
+		width: 45%;
+	}
+	.page_part_title {
+		width: 80%;
+	}
+	.our_offices {
+		padding-top: 8em;
+		padding-bottom: 24em;
+	}
+}
