@@ -4,7 +4,6 @@
 header {
 	max-width: 70%;	
 }
-
 .header_social i {
 	font-size: 1.5em;
 }
@@ -15,7 +14,6 @@ header {
 	flex-direction: column;
 	align-items: center;
 }
-
 .container {
 	max-width: 90%;
 }
@@ -28,7 +26,6 @@ header {
 .youtube_video iframe {
 	height: 500px
 }
-
 }
 
 @media screen and (max-width: 1200px) {
@@ -38,7 +35,6 @@ header {
 .man_2_be {
 	width: 45%;
 }
-
 .rockstar {
 	width: 70%;
 }
@@ -71,7 +67,6 @@ footer {
 footer p {
 	margin-top: 1em;
 }
-
 }
 
 @media screen and (max-width: 1024px) {
@@ -90,11 +85,9 @@ footer p {
 .rodie {
 	width: 55%;
 }
-
 .container {
 	max-width: 95%;
 }
-
 .youtube_video {
 	max-width: 75%;
 }
@@ -111,7 +104,6 @@ footer p {
 footer p {
 	font-size: 0.9em;
 }
-
 }
 
 @media screen and (max-width: 945px) {
@@ -135,11 +127,9 @@ footer p {
 .rodie {
 	width: 45%;
 }
-
 .container {
 	max-width: 95%;
 }
-
 .youtube_video {
 	max-width: 75%;
 }
@@ -233,7 +223,8 @@ footer p {
 
 @media screen and (max-width: 425px) {
 .wrap {
-	
+	background: url(../img/small.jpg) 40%  no-repeat;
+	background-size: cover;
 }
 header {
 	padding-top: 15%;
@@ -298,10 +289,8 @@ footer p {
 
 }
 .audio_player iframe {
-	width: 90%;
-	
+	width: 90%;	
 }
-
 }
 
 @media screen and (max-width: 320px) {
