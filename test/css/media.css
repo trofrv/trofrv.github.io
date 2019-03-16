@@ -223,7 +223,7 @@ footer p {
 
 @media screen and (max-width: 425px) {
 .wrap {
-	background: url(../img/small.jpg) 40%  no-repeat;
+	background: url(../img/small.jpg) 40% no-repeat;
 	background-size: cover;
 }
 header {
@@ -286,7 +286,6 @@ footer p {
 }
 .audio_player {
 	text-align: center;
-
 }
 .audio_player iframe {
 	width: 90%;	
