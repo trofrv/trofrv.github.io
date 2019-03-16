@@ -53,7 +53,7 @@ header {
 	max-width: 90%;
 }
 .audio_player {
-	padding-bottom: 5em;
+	padding-bottom: 0em;
 }
 .youtube_video {
 	max-width: 70%;
@@ -74,7 +74,7 @@ footer p {
 
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
 
 .man_2_be img {
 	width: 80%;
@@ -115,9 +115,7 @@ footer p {
 }
 
 @media screen and (max-width: 945px) {
-	body {
-		min-width: 945px;
-	}
+
 .header_social {
 	font-size: 0.9em;
 }
@@ -128,7 +126,6 @@ footer p {
 	display: flex;
 	position: relative;
 	left: 5em;
-
 }
 .rockstar {
 	width: 55%;
@@ -166,4 +163,157 @@ footer p {
 	font-size: 0.9em;
 }
 
+}
+
+@media screen and (max-width: 768px) {
+.wrap {
+
+}
+header {
+	width: 60%;
+}
+.header_social {
+	font-size: 0.9em;
+}
+
+.man_2_be img {
+	width: 70%;
+}
+.man_2_be {
+	display: flex;
+	position: relative;
+	left: 5em;
+}
+.rockstar {
+	width: 55%;
+	position: relative;
+	left: 3%;
+}
+.rodie {
+	width: 45%;
+}
+
+.container {
+	max-width: 100%;
+}
+.container_item {
+	margin-left: em;
+}
+.container p {
+	font-size: 100%;
+}
+
+.youtube_video {
+	max-width: 75%;
+}
+.youtube_video iframe {
+	height: 400px
+}
+.audio_player {
+
+}
+.youtube_video {
+	margin-top: 0%;
+}
+.audio_player iframe{
+	width: 70%;
+}
+.footer_social {
+	margin-top: 1em;
+	font-size: 1.3em;
+}
+.label_logo img {
+	width: 8%;
+}
+footer p {
+	font-size: 0.8em;
+}
+	
+}
+
+@media screen and (max-width: 425px) {
+.wrap {
+	
+}
+header {
+	padding-top: 15%;
+	width: 100%;
+}
+.header_social {
+	position: relative;
+	left: 10px;
+	font-size: 0.7em;
+}
+.new_single {
+	text-align: right;
+	position: relative;
+	right: 10%;
+}
+.man_2_be img {
+	width: 50%;
+}
+.man_2_be {
+	left: 52%;
+}
+.rockstar_rodie {
+	margin-top: 5%;
+}
+.rockstar_rodie img {
+	position: relative;
+	left: 25%;
+}
+.rockstar {
+	width: 45%;
+}
+.rodie {
+	width: 35%;
+}
+.get_now {
+	position: relative;
+	text-align: right;
+	right: 2%;
+}
+
+.container p {
+	font-size: 75%;
+}
+.footer_social {
+	margin-top: 1em;
+	font-size: 1em;
+}
+.label_logo img {
+	width: 8%;
+}
+footer p {
+	font-size: 0.7em;
+}
+.youtube_video {
+	max-width: 90%;
+}
+.youtube_video iframe {
+	height: 250px;
+}
+.audio_player {
+	text-align: center;
+
+}
+.audio_player iframe {
+	width: 90%;
+	
+}
+
+}
+
+@media screen and (max-width: 320px) {
+
+	.audio_player iframe {
+		width: 90%;
+		margin: 0;
+	}
+	.audio_player {
+		text-align: center;
+	}
+	.youtube_video iframe {
+		height: 200px;
+	}
 }
