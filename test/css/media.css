@@ -223,8 +223,7 @@ footer p {
 
 @media screen and (max-width: 425px) {
 .wrap {
-	background: url(../img/small.jpg) 40% no-repeat;
-	background-size: cover;
+	background-position: 35%;
 }
 header {
 	padding-top: 15%;
