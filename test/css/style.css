@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 100%;
+	width: 100%;
+	max-width: 2000px;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.wrap {
+	background: url(../img/bg.jpg) center center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+header {
+	padding-top: 6%;
+	display: flex;
+	max-width: 55%;
+	margin: 0 auto;
+	justify-content: flex-end;
+}
+.header_social {
+	display: flex;
+	align-items: center;
+}
+.header_social i {
+	margin-left: 0.5em;
+	color: red;
+	font-size: 1.6875em;
+}
+
+.container {
+	max-width: 70%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 1.8%;
+}
+.container_part_1 {
+	text-align: center;
+}
+.rodie {
+	margin-left: 19%;
+}
+.container_part_1 img {
+	display: block;
+}
+.container_part_1 p {
+	font-size: 1.28125em;
+	color: #fff;
+	margin-top: 8%;
+	font-family: 'GillSans';
+	letter-spacing: 5px;
+}
+.man_2_be {
+	display: flex;
+	align-items: center;
+	margin-top: 5%;
+	padding-bottom: 7%;
+}
+.man_2_be img {
+	display: inline-block;
+}
+.man {
+	position: relative;
+	right: 1em;
+	top: 1.5em;
+}
+.get_now {
+	margin-top: 4%;
+	line-height: 0.8;
+	padding-bottom: 9%;
+}
+.get_now p {
+	font-family: 'GillSans Bold';
+	margin: 0;
+}
+.get_now span {
+	color: #ee1004;
+}
+.get_now a {
+	font-size: 1.28125em;
+	font-family: 'GillSans Bold';
+	letter-spacing: 5px;
+}
+.audio_player {
+	padding-bottom: 29%; 
+}
+
+.youtube_video {
+	max-width: 65%;
+	margin: 0 auto;
+	margin-top: 13%;
+}
+
+.footer_social {
+	font-size: 2.3em;
+	text-align: center;
+	margin-top: 2em;
+}
+.footer_social i {
+	margin-right: 0.5em;
+}
+
+footer {
+	color: #fff;
+	text-align: center;
+	margin-top: 3.125em;
+	font-family: 'GillSans';
+	padding-bottom: 4em;
+}
+footer p {
+	margin-top: 3em;
+}
+
+
+
+
+@font-face {
+	font-family: 'GillSans';
+	src:url(../fonts/Gill-Sans.otf);
+}
+@font-face {
+	font-family: 'GillSans Bold';
+	src:url(../fonts/Gill-Sans-Bold.otf);
+}
