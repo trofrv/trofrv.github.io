@@ -29,7 +29,7 @@ header::before {
 	position: absolute;
 	width: 100%;
 	height: 20%;
-	bottom: 0;
+	bottom: -1px;
 	display: block;
 	background: url(../images/Sep-bot.png) center center no-repeat;
 	background-size: 100% 100%;
@@ -277,7 +277,7 @@ label.hamburger, .drawer-list, input.hamburger {
 	position: absolute;
 	width: 100%;
 	height: 20%;
-	bottom: 0;
+	bottom: -1px;
 	display: block;
 	background: url(../images/Sep-bot.png) center center no-repeat;
 	background-size: 100% 100%;
