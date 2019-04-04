@@ -1,0 +1,29 @@
+@media screen and (max-width: 1200px) {
+	.navbar-nav li {
+		margin-right: 0.4em;
+	}
+}
+@media screen and (max-width: 439px) {
+	.promo h1 {
+		font-size: 3.25em;
+	}
+	.navbar-brand img {
+		position: relative;
+		left: 4.85em;
+	}
+	.navbar-brand span {
+		right: 1.44em;
+	}
+	.first-button {
+		margin-top: 0.6em;
+	}
+	.promo_section {
+		margin-top: 5em;
+	}
+	.about_wrap {
+		padding: 3em 0 4em 0;
+	}
+	.ingredient_content {
+		padding: 2.5em 0;
+	}
+}
