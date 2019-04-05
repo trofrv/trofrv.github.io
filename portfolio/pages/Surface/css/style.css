@@ -45,6 +45,10 @@ a {
 	background-size: cover;
 	z-index: 1;
 }
+.gc_content {
+	position: absolute;
+	z-index: 2;
+}
 
 .header__wrap {
 	position: relative;

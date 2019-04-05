@@ -67,3 +67,9 @@
 	}
 
 }
+
+@media screen and (min-width: 1920px) {
+	.block_1_img, .block_4_img, .block_5_img {
+		width: 100%;
+	}
+}

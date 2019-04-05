@@ -42,6 +42,9 @@
 		width: 57%;
 		left: -115px;
 	}
+	.footbaler__img {
+		width: 80%;
+	}
 	.title {
 		padding-bottom: 60px;
 		font-size: 5.625em;
