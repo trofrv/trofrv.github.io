@@ -170,6 +170,69 @@ transform: rotate(-135deg);
 	padding: 5em 0;
 }
 
+	/* ------ Menu Section ------ */
+
+.menu_wrap {
+	background: url(../img/menu-bg.png) center center;
+	padding: 6.25em 0;
+}
+.menu_title h1, .menu_item_title h2, .menu_item_title p {
+	color: #CC9900;
+	font-family: 'Yeseva One', cursive;
+}
+.menu_item_title {
+	border-bottom: 1px solid #dfd0a0a6;
+}
+.menu_item_price, .menu_item_title h2 {
+	font-size: 1.3125em;
+}
+.menu_item_description p {
+	font-family: 'Yeseva One', cursive;
+	font-size: 1em;
+	color: #4c4c4c;
+}
+.menu_title h1 {
+	font-size: 2.25em;
+}
+.special_proposal {
+	border: 1px solid #dcc78a;
+}
+.special_proposal_badge {
+	background: #d8bf75;
+	width: 70px;
+	height: 25px;
+	color: #fff;
+}
+.menu_item_lastchild {
+	margin-top: 3em;
+}
+
+	/* ------ Reviews section ----- */
+
+.reviews_wrap {
+	padding: 6.25em 0;
+	background: url(../img/reviews-bg.jpg) center center no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+.reviews_content {
+	background: #000000c9;
+	padding: 5em 0 6.5625em 1em;
+	position: relative;
+}
+.reviews_content span {
+	font-size: 1.4em;
+	color: #989b99;
+	font-family: 'Yeseva One', cursive;
+}
+.reviews_content p {
+	font-size: 1.4em;
+	font-family: 'Gentium Book Basic', serif;
+}
+.reviews-footer p {
+	font-size: 1em;
+	color: #fff;
+}
 
 
 
