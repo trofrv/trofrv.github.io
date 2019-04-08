@@ -234,6 +234,59 @@ transform: rotate(-135deg);
 	color: #fff;
 }
 
+	/* ------ Reservations Section ------ */
+
+.reservations_wrap {
+	background: url(../img/about-bg.png) center center;
+	padding: 6.25em 0;
+}
+.book_btn {
+	background: #c9a131;
+	color: #fff;
+	border-style: none;
+	padding: 0.6em 4em;
+	transition: 0.3s;
+}
+.book_btn:hover {
+	background: #d6a826cc;
+	transition: 0.3s;
+	transform: scale(1.07);
+	box-shadow: 5px 5px 5px 0 lightgrey;
+}
+.reservations_section p {
+	color: #4c4c4c;
+}
+.reservations_section h1 {
+	color: #c9a131;
+}
+form span {
+	color: #c9a131;
+	font-weight: bold;
+	font-size: 0.875em;
+}
+input {
+	padding: 0.25em 0 0.25em 0.25em;
+	border: 1px solid lightgrey;
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+}
+
+	/* ------ Footer ------ */
+
+footer {
+	background: #000000;
+	color: #fff;
+	padding: 3.125em 0;
+}
+.payment_method {
+	font-size: 1.3em;
+}
+.footer_section h1 {
+	font-size: 1.3125em;
+}
+
+
+
 
 
 	/* ------ Fonts ------ */

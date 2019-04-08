@@ -33,3 +33,15 @@
 		margin-top: -4em;
 	}
 }
+
+@media screen and (max-width: 991px) {
+	.reservations_content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0 auto;
+	}
+	.reserv_form_section {
+		text-align: center;
+	}
+}
